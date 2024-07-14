@@ -1,0 +1,164 @@
+.product{
+    width: 100%;
+    height: 100vh;
+    color: #FFFFE0;
+    background-image: url('../assets/bg14.png');
+    fill-opacity: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.product-image h3{
+    font-size: 30px;
+    text-shadow: 2px 7px 4px rgba(0, 0, 0.5, 0.5); /* Tambahkan bayangan pada teks */
+}
+.text{
+    opacity: 0;
+    animation: slideInLeft 1s forwards;
+}
+@keyframes slideInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.product-image .text h1{
+    font-size: 50px;
+    text-shadow: 2px 7px 4px rgba(0, 0, 0.5, 0.5); /* Tambahkan bayangan pada teks */
+}
+.product-image .text h4{
+    font-size: 30px;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan pada teks */
+}
+.product-image .image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4vw;
+}
+.image h3{
+    opacity: 0;
+    animation: slideInRight 1s forwards;
+}
+@keyframes slideInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.arrow {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    color: #FFFFE0;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 1);
+}
+.product-image img{
+    margin-top: 12vh;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.product-image img.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.product-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0b0b0b;
+    height: 30%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.advantages li {
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #ffffe068;
+    cursor: pointer;
+}
+.advantages li:hover{
+    color: #FFFFE0;
+}
+.advantages li.active{
+    color: #FFFFE0;
+}
+
+.performace{
+    line-height: 2.5;
+}
+
+
+.desc-performance{
+    width: 35%;
+    text-align: left;
+    margin: 0 5vw 2vh;
+}
+.desc-performance h2{
+    margin-bottom: 2vh;
+}
+.desc-performance span{
+    font-weight: bolder;
+}
+.desc-performance button{
+    margin-top: 3vh;
+    margin-right: 1vh;
+    width: 30%;
+    height: 4vh;
+    border: 1px solid #FFFFE0;
+    border-radius: 5px;
+    background-color: #1a1c1c00;
+    color: #FFFFE0;
+    font-weight: bolder;
+}
+.desc-performance .discover{
+    background-color: #1a1c1c;
+}
+
+.desc-performance button:hover{
+    background-color: #FFFFE0;
+    color: #1a1c1c;
+}
+
+.specification{
+    width: 25%;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.specification h2{
+    margin-bottom:0.5vh ;
+}
+
+.specification1{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 1vh;
+}
+

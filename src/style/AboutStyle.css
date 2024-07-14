@@ -1,0 +1,44 @@
+.about{
+    background-image: url('../assets/bg18.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    width: 50%;
+    height: 100%;
+}
+.about-desc{
+    width: 40%;
+    height: 40%;
+    text-align: left;
+}
+.about-desc h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.about-desc h3{
+    margin: 4vh 0 1vh;
+    color: #717878;
+    font-weight: 500;
+}
+.about-desc button{
+    color: #FFFFE0;
+    background-color: #1a1c1c;
+    width: 35%;
+    height: 10%;
+    border: 1px solid #FFFFE0;
+    border-radius: 5px;
+    margin-top: 4vh;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.about-desc button:hover{
+    color: #1a1c1c;
+    background-color: #FFFFE0;
+    border: 1px solid #1a1c1c;
+}

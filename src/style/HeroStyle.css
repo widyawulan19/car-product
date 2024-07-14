@@ -1,0 +1,75 @@
+.hero{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/bg13.png');
+    fill-opacity: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+} 
+.hero-text{
+    width: 80%;
+    margin-left: 15vh;
+    margin-bottom: 20vh;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.hero-text h1{
+    color: #32CD32;
+    text-align: left;
+}
+.hero-text h1 span{
+    color: white;
+}
+.hero-text p{
+    text-align: left;
+    width: 80%;
+    margin-top: 3vh;
+}
+.hero-text button{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 25%;
+    height: 5vh;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 40vw;
+    margin-top: 5vh;
+}
+.hero-text button:hover{
+    background-color: #1E1E1E;
+}
+
+.hero-img{
+    width: 100%;
+    height: 65%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.hero-img.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+@media (width <= 800px){
+    .hero{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.5fr;
+    }
+    .hero-text{
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media (width <= 767px){
+    
+    
+}
