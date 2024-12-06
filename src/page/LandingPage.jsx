@@ -9,13 +9,7 @@ import Footer from '../component/Footer'
 function LandingPage() {
   return (
     <div className='landing-page'>
-<<<<<<< HEAD
-        <Navbar/>
-=======
-      {/* <div className="navbar" style={{position:'sticky'}}>
-        <Navbar/>
-      </div> */}
->>>>>>> 02b6f5e (update 6 des)
+        {/* <Navbar/> */}
         <Hero/>
         <ProductPrev/>
         <About/>
