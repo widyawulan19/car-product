@@ -1,5 +1,9 @@
 {
   "name": "car-product",
+<<<<<<< HEAD
+=======
+  "homepage": "https://widyawulan19.github.io/car-product",
+>>>>>>> 02b6f5e (update 6 des)
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +19,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
+=======
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+>>>>>>> 02b6f5e (update 6 des)
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
