@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/car-product/static/css/main.bc7e1091.css",
+    "main.js": "/car-product/static/js/main.e0a88dfa.js",
+    "static/js/453.18fdc692.chunk.js": "/car-product/static/js/453.18fdc692.chunk.js",
+    "static/media/bg13.png": "/car-product/static/media/bg13.8b6e555896cb88d9d28d.png",
+    "static/media/bg14.png": "/car-product/static/media/bg14.7b869e2f2911ec448a14.png",
+    "static/media/bg18.png": "/car-product/static/media/bg18.63f29979e940876dc6c9.png",
+    "static/media/NissanLeaf-rb.png": "/car-product/static/media/NissanLeaf-rb.97de53c7e9b9a7199b5b.png",
+    "static/media/BMWi3-rb.png": "/car-product/static/media/BMWi3-rb.91ef575ace9df41ecb46.png",
+    "static/media/wuling-rb.png": "/car-product/static/media/wuling-rb.ec8158198e840af0431b.png",
+    "static/media/tesla1.png": "/car-product/static/media/tesla1.fbad0a405afa44a2b294.png",
+    "static/media/Tesla1-rb.png": "/car-product/static/media/Tesla1-rb.c9cdc283980908874146.png",
+    "static/media/Tesla2-rb.png": "/car-product/static/media/Tesla2-rb.bee7b0815ff50de5b67c.png",
+    "static/media/bg3.jpg": "/car-product/static/media/bg3.c71abf83d2a02a24e4c9.jpg",
+    "index.html": "/car-product/index.html",
+    "main.bc7e1091.css.map": "/car-product/static/css/main.bc7e1091.css.map",
+    "main.e0a88dfa.js.map": "/car-product/static/js/main.e0a88dfa.js.map",
+    "453.18fdc692.chunk.js.map": "/car-product/static/js/453.18fdc692.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc7e1091.css",
+    "static/js/main.e0a88dfa.js"
+  ]
+}
